@@ -22,12 +22,7 @@ const Section1objective = () => {
             <div className='SocialMedia-icons'>
                 <Section1Icons/>
             </div>
-            <div className='curriculo-container'>
-          <a href="" target='blank'><button className='viewCV' > View CV</button></a>
-          <a href="" ><button className='downloadCV'> <IoMdCloudDownload />
-</button></a>
-          
-         </div>
+  
             
         </div>
         
