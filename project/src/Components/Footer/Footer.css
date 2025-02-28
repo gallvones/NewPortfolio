@@ -3,13 +3,15 @@
     align-items: flex-start; 
     justify-content: center;
     height: 10vh;
-    gap: 5px;
+    gap: 3px;
 }
-.footer-container >h1 {
-    margin-top: 25px;
+.footer-container >p {
+    margin-top: 36.6px;
 }
 .footer-container > .copyright {
-    margin-top: 36.6px;
-    font-size: 1.2rem;
+    margin-top: 38px;
+    font-size: 0.85rem;
+    margin-left: -2px;
     cursor: pointer;
+
 }

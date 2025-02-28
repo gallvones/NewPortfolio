@@ -1,10 +1,12 @@
 import React from 'react'
 import '../Footer/Footer.css'
-import { FaRegCopyright } from "react-icons/fa";
+import { FaRegCopyright,FaLinkedin, } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <h1>Direitos Reservados </h1> <FaRegCopyright className='copyright'/>
+      <p> "The important thing is not to get there, but to bear fruits from the journey"  </p>
+       <p>Luiz Galvão</p> <FaRegCopyright className='copyright'/>
         </div>
   )
 }
