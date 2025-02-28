@@ -1,0 +1,255 @@
+.section2-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.section2-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cardsexp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 60px;
+}
+.cards-exp {
+    display: flex;
+    flex-direction: column;;
+    border: 2px solid grey;
+    border-radius: 20%;
+    width: 200px;
+    height: 300px;
+    min-width: 200px;
+    min-height: 300px;
+}
+.section2Card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.section2-iconCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section2-iconCard  > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(140, 140, 140);
+}
+
+/* First Card */
+.firstCard-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    gap: 15px;
+}
+.firstCard-icons > .react {
+    color: #61dafb;
+    cursor: pointer;
+  
+}
+
+.firstCard-icons > .node {
+    color: #339933;
+    cursor: pointer;
+}
+
+.firstCard-icons > .mongodb {
+color: #47A248;
+cursor: pointer;
+}
+
+
+/* Second Card */
+.secondCard-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    gap: 15px;
+}
+
+.secondCard-firstline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.secondCard-firstline-icons > .react {
+    color: #61dafb;
+    cursor: pointer;
+}
+.secondCard-firstline-icons > .vite {
+    color: #646CFF;
+    cursor: pointer;
+}
+
+.secondCard-icons > .tailwind{
+color: #38BDF8;
+cursor: pointer;
+}
+.secondCard-icons > .bootstrap{
+color: #7952B3;
+cursor: pointer;
+}
+
+/* Third Card */
+.thirdCard-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    gap: 15px;
+}
+
+.thirdCard-firstline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.thirdCard-firstline-icons > .node {
+    color: #339933;
+    cursor: pointer;
+}
+.thirdCard-firstline-icons > p {
+    font-size: 25px;
+    color: black;
+}
+
+
+.thirdCard-secondline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+}
+.thirdCard-secondline-icons > .jest {
+    color: #C21325;
+    cursor: pointer;
+}
+.thirdCard-secondline-icons > p {
+    font-size: 25px;
+    color: #5C3B8F;
+}
+
+.thirdCard-thirdline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+    margin-top: 7px;
+}
+.thirdCard-thirdline-icons > .docker {
+    color: #2496ED;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .jwt {
+    color: #D63AFF;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .mongoose {
+    color: #47A248;
+    cursor: pointer;
+}
+.thirdCard-thirdline-icons > .git {
+    color:#F05032;
+    cursor: pointer;
+}
+
+.fourdCard-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    gap: 15px;
+}
+.fourdCard-firstline-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fourdCard-firstline-icons > .trello {
+    color: #0079BF;
+    cursor: pointer;
+    }
+
+.fourdCard-firstline-icons > .github {
+ color: #181717;
+ cursor: pointer;
+}
+
+.fourdCard-firstline-icons > .vscode{
+color: #007ACC;
+cursor: pointer;
+}
+.fourdCard-firstline-icons > p {
+    color: #007ACC;
+    padding: 2px;
+    font-size: 1.5rem;
+    border: solid 1px black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fourdCard-secondline-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+    margin-top: 10px;
+}
+.fourdCard-secondline-icons > .figma{
+    color: #F24E1E;
+    cursor: pointer;
+}
+
+.fourdCard-secondline-icons > .canva {
+    color: #00C4CC;
+    cursor: pointer;
+}
+
+.fourdCard-secondline-icons > .postman {
+    color: #FF6C37;
+    cursor: pointer;
+}
+.fourdCard-secondline-icons > .notion {
+    color: #5849BE;
+    cursor: pointer;
+}
+.fourdCard-thirdline-icons > p{
+    cursor: pointer;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 3.5px;
+}
+.fourdCard-thirdline-icons :hover{
+    background-color: #2B579A;
+    color: rgb(205, 205, 205);
+}
+
+

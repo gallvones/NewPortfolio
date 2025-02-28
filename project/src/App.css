@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+hr{
+    margin-top: 70px;
+    height: 3px;
+    color: grey;
+    background-color: rgb(99, 2, 2);
+    border: 1px;
+}
+.header{
+    background-color: grey;
+     
+}
+.body{
+    margin-top: 70px;
+}
+.footer {
+    background-color: grey;
+}

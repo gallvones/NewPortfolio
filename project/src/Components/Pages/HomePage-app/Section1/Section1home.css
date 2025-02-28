@@ -1,0 +1,53 @@
+.all-section {
+    display: flex;
+   gap: 60px ;
+}
+
+.galvaoimage-container {
+    max-width: 380px; 
+    max-height: 380px;
+    min-width: 400px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px grey;
+    margin-left: 50px;
+}
+
+.galvaoimage-container > img {
+    width: 120%;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.SocialMedia-icons{
+    margin-top: 10px;
+}
+.curriculo-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.viewCV{
+    border-color: grey;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.downloadCV{
+    border-color: grey;
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
