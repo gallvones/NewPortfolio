@@ -7,7 +7,7 @@ const Section1Icons = () => {
   return (
     <div className='all-container'>
     <div className='icons'>
-       <a href='https://www.linkedin.com/in/luiz-galvão-64057a251/' target='blank'> <FaLinkedin  className='linkedin' /></a>
+       <a href='https://www.linkedin.com/in/luiz-galvão-64057a251' target='blank'> <FaLinkedin  className='linkedin' /></a>
         <a href="https://github.com/gallvones" target='blank'><FaGithub  className='github'/></a>
         <a href="https://www.youtube.com" target='blank'><IoLogoYoutube className='youtube' /></a>
         </div>

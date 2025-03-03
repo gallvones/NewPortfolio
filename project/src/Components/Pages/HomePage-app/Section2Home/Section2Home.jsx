@@ -7,6 +7,7 @@ const Section2Home = () => {
     const arrow = '------->'
   return (
     <div className='all-section2home'>
+      <div className='section2home-title'><h1>Experiencias</h1></div>
         <div className='card-exp-container'>
             {/* Card1-container- Direcional */}
             <div className='card-exp-direcional-container'>
