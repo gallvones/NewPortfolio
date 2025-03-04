@@ -2,16 +2,21 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
+const usernameGmail= process.env.GMAIL_USERNAME;
+const passwordGmail = process.env.PASSWORD_USERNAME;
+
 const app = express();
 const PORT = 3002;
 
 // Middlewares
 app.use(cors());
 app.use(bodyParser.json());
+
 
 // DB connect
 const connectToDataBase = async () => {
@@ -24,10 +29,18 @@ const connectToDataBase = async () => {
 };
 connectToDataBase();
 
-// Importar o modelo
-const FormData = require('./FormData'); // Certifique-se de que o caminho está correto
+// The model of documents
+const FormData = require('./FormData'); 
 
-// Post rota
+const transporter = nodemailer.createTransport({
+    service: 'gmail', 
+    auth: {
+        user: usernameGmail, 
+        pass: passwordGmail, 
+    },
+});
+
+// Post 
 app.post('/', async (req, res) => {
     try {
         const { firstline, secondline, thirdline, fourdline } = req.body;
@@ -35,6 +48,26 @@ app.post('/', async (req, res) => {
         // Criar um novo documento no MongoDB
         const formData = new FormData({ firstline, secondline, thirdline, fourdline });
         await formData.save(); // Salvar no banco de dados
+
+        const mailOptions = {
+            from: usernameGmail, 
+            to: usernameGmail, 
+            subject: `New message from the portfolio form from${firstline}`, 
+            text: `
+                Name: ${firstline}
+                Contact: ${secondline}
+                Subjective: ${thirdline}
+                Mensagem: ${fourdline}
+            `, 
+        };
+        
+        transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+                console.error('Error to send the e-mail to my inbox:', error); 
+            } else {
+                console.log('Mail sendo to my personal inbox!:', info.response); 
+            }
+        });
 
         res.status(200).json({ message: 'Dados salvos com sucesso!' });
     } catch (error) {

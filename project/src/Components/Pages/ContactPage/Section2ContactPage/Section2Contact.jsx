@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Section2ContactPage/Section2Contact.css';
 
 const Section2Contact = () => {
-    // Estado para armazenar os dados do formulário
+    
     const [formData, setFormData] = useState({
         firstline: '',
         secondline: '',
@@ -10,32 +10,39 @@ const Section2Contact = () => {
         fourdline: '',
     });
 
-    // Função para atualizar o estado quando o usuário digita
+    // Att the values of formData
     const attInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({
             ...formData,
-            [name]: value, // Atualiza o campo correspondente
+            [name]: value, // Att the keys and value
         });
     };
 
     // Função para enviar os dados do formulário
     const attSubmit = async (e) => {
-        e.preventDefault(); // Evita o recarregamento da página
+        e.preventDefault(); // No reload
 
         try {
-            // Envia os dados para o backend
+            // Send datas to the backend
             const response = await fetch('http://localhost:3002', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData), // Converte os dados para JSON
+                body: JSON.stringify(formData), // datas to json
             });
 
             if (response.ok) {
-                const result = await response.json(); // Processa a resposta do backend
-                alert(result.message); // Exibe a mensagem de sucesso
+                const result = await response.json(); // Process the response of backend
+                alert(`Your message was receive in my DB and send to my personal e-mail inbox! ${formData.firstline},i will respond as soon as I can `);
+                setFormData({
+                    firstline: '',
+                    secondline: '',
+                    thirdline: '',
+                    fourdline: '',
+                });
+                window.location.reload();
             } else {
-                alert('Erro ao enviar dados.');
+                alert('Error to send the message. Please, try again!');
             }
         } catch (error) {
             console.error('Erro ao enviar dados:', error);
@@ -52,7 +59,8 @@ const Section2Contact = () => {
                         placeholder="Name and Surname"
                         className='firstline'
                         value={formData.firstline}
-                        onChange={attInputChange} // Atualiza o estado
+                        onChange={attInputChange} // Att the state 
+                        required
                     />
                     <input
                         type="text"
@@ -60,7 +68,8 @@ const Section2Contact = () => {
                         placeholder="Number or @SocialMedia Profile"
                         className='secondline'
                         value={formData.secondline}
-                        onChange={attInputChange} // Atualiza o estado
+                        onChange={attInputChange} 
+                        required
                     />
                     <input
                         type="text"
@@ -68,14 +77,16 @@ const Section2Contact = () => {
                         placeholder="Reason for Contact"
                         className='thirdline'
                         value={formData.thirdline}
-                        onChange={attInputChange} // Atualiza o estado
+                        onChange={attInputChange} 
+                        required
                     />
                     <textarea
                         name="fourdline"
                         placeholder="Description"
                         className='fourdline'
                         value={formData.fourdline}
-                        onChange={attInputChange} // Atualiza o estado
+                        onChange={attInputChange} 
+                        required
                     />
                     <button type="submit" className='btn'>Send</button>
                 </form>
