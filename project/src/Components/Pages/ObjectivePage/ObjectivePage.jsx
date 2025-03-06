@@ -3,7 +3,7 @@ import '../../../app.css'
 import '../ObjectivePage/ObjectivePage.css'
 import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
-import Section1 from  './Section1/Section1objective.jsx'
+import Section1 from  './Section1/Section1Objective.jsx'
 import Section2 from './Section2/Section2'
 
 const ObjectivePage = () => {

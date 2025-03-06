@@ -13,9 +13,9 @@ const ProjectsPage = () => {
        </div>
        <div className='body-projects'>
         <Section1Projects/>
-        <hr />
+        <hr className='hr1' />
         <Section2Projects/>
-        <hr />
+        <hr className='hr2'/>
        </div>
     <div className='footer-projects'>
       <Footer/>

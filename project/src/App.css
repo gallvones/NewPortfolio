@@ -11,18 +11,20 @@ a{
 hr{
     margin-top: 70px;
     height: 3px;
-    color: grey;
-    background-color: rgb(99, 2, 2);
+    background-color:  #bab8b7;
     border: 1px;
 }
 .header-home{
-    background-color: grey;
+    background-color:  #bab8b7;
+    color: rgb(25, 25, 46);
      
 }
 .body-home{
-    margin-top: 70px;
+    background-color: rgb(25, 25, 46);
+    
     
 }
 .footer-home {
-    background-color: grey;
+    background-color: #bab8b7;
+    color: rgb(25, 25, 46);
 }

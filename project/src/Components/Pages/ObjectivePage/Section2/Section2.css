@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    color: white;
 }
 
 .cardsexp-container{
@@ -21,10 +22,13 @@
     margin-right: 50px;
     gap: 60px;
 }
+.more {
+    color: #bab8b7;
+}
 .cards-exp {
     display: flex;
     flex-direction: column;;
-    border: 2px solid grey;
+    border: 2px solid #bab8b7;
     border-radius: 10%;
     width: 200px;
     height: 300px;
@@ -37,6 +41,7 @@
     justify-content: center;
     white-space: nowrap;
     margin-top: 20px;
+    color: white;
 }
 
 .section2-iconCard{
@@ -50,7 +55,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(140, 140, 140);
+    color: #bab8b7;
 }
 
 /* First Card */
@@ -128,6 +133,7 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    
 }
 .thirdCard-firstline-icons > .node {
     color: #339933;
@@ -135,7 +141,7 @@ cursor: pointer;
 }
 .thirdCard-firstline-icons > p {
     font-size: 25px;
-    color: black;
+    color: #bab8b7;
 }
 
 
@@ -199,7 +205,7 @@ cursor: pointer;
     }
 
 .fourdCard-firstline-icons > .github {
- color: #181717;
+ color: #bab8b7;
  cursor: pointer;
 }
 
@@ -243,9 +249,14 @@ cursor: pointer;
 }
 .fourdCard-thirdline-icons > p{
     cursor: pointer;
-    border: solid 1px black;
+    border: solid 1px #bab8b7;
     border-radius: 15px;
     padding: 3.5px;
+    color: #bab8b7;
+}
+.fourdCard-thirdline-icons > p:hover{
+    background-color: white;
+    color: rgb(25, 25, 46);
 }
 .fourdCard-thirdline-icons :hover{
     background-color: #2B579A;

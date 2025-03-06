@@ -1,11 +1,13 @@
 
 .header-objective{
-    background-color: grey;
+    background-color:  #bab8b7;
+    color: rgb(25, 25, 46);
      
 }
 .body-objective{
-    margin-top: 70px;
+    background-color: rgb(25, 25, 46);
 }
 .footer-objective {
-    background-color: grey;
+    background-color: #bab8b7;
+    color: rgb(25, 25, 46);
 }

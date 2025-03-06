@@ -13,8 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 5px grey;
-    margin-left: 50px;
+    border: solid 5px #bab8b7;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
 .galvaoimage-container > img {
@@ -24,7 +25,11 @@
 .about-me{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 100px;
+    color: white;
+}
+.about-me > h1{
+    color: white;
 }
 .about-me-text{
     height: 150px;

@@ -4,7 +4,7 @@ import Direcional from '../../../../assets/img/direcional.png'
 import SL from '../../../../assets/img/SLwebsolutions.jpeg';
 import ND from '../../../../assets/img/ND.png';
 const Section2Home = () => {
-    const arrow = '------->'
+    const arrow = '------->' 
   return (
     <div className='all-section2home'>
       <div className='section2home-title'><h1>Experiencias</h1></div>
@@ -18,7 +18,7 @@ const Section2Home = () => {
 
  </div>
 
- {arrow}
+ <div className='arrow'>{arrow }</div>
 
 {/* Card2-container-Direcional */}
  <div className='card-exp-direcional-second'>
@@ -31,7 +31,7 @@ const Section2Home = () => {
    </div>
  </div>
 
-{arrow}
+ <div className='arrow'>{arrow }</div>
  {/* Card3-container-Direcional */}
  <div className='card-exp-direcional-third'>
     <div className='card-exp-direcional-thirdCard-title'>
@@ -62,7 +62,7 @@ const Section2Home = () => {
 
 </div>
 
-{arrow}
+<div className='arrow'>{arrow }</div>
 
 {/* Card2-container-NordicStore */}
 <div className='card-exp-nd-second'>
@@ -76,7 +76,7 @@ const Section2Home = () => {
     </div>
   </div>
 </div>
-{arrow}
+<div className='arrow'>{arrow }</div>
 
 {/* Card3-container-Nordic Store */}
 <div className='card-exp-nd-third'>
@@ -110,7 +110,7 @@ const Section2Home = () => {
 
 </div>
 
-{arrow}
+<div className='arrow'>{arrow }</div>
 
 {/* Card2-container-SL */}
 <div className='card-exp-sl-second'>
@@ -124,7 +124,7 @@ const Section2Home = () => {
     </div>
   </div>
 </div>
-{arrow}
+<div className='arrow'>{arrow }</div>
 
 {/* Card3-container-SL */}
 <div className='card-exp-sl-third'>

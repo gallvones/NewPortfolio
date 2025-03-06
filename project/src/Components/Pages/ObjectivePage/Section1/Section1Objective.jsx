@@ -10,15 +10,16 @@ const Section1objective = () => {
             <img src={myImage2} alt="My image2" />
         </div>
         <div className='objective-text'>
-            <h1> Realocação no Mercado de Trabalho</h1>
+            <h1> Relocation in the job market </h1>
             <br />
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel libero ipsum<br /> 
-            ea aperiam quae dolorem quis tenetur molestias iusto eius, laborum <br />
+            <p> - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel libero ipsum
+            ea aperiam quae dolorem quis tenetur molestias iusto eius, laborum 
             nam, eos aspernatur. Enim repellat sapiente facere ad aliquid?</p>
             <br />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiaebr <br /> non hic porro, nihil magni aperiam, adipisci magnam animi repudiandae<br /> 
-            quisquam facere impedit, aspernatur ipsam illo voluptatibus <br /> 
+            <p> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiaebr  non hic porro, nihil magni aperiam, adipisci magnam animi repudiandae
+            quisquam facere impedit, aspernatur ipsam illo voluptatibus 
             ipsa error modi laboriosam.</p>
+            <br />
             <div className='SocialMedia-icons'>
                 <Section1Icons/>
             </div>

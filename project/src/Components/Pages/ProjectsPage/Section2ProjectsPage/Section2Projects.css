@@ -7,12 +7,14 @@
         justify-content: center;
         align-items: center;
         margin-top: 30px;
+        color: white;
     }
     .section2-text1{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    color: #bab8b7;
     }
     .firstlineCards-section2{
         display: flex;
@@ -38,7 +40,7 @@
         max-height: 230px;
         min-height: 230px;
         overflow: hidden;
-        border: 4px solid grey;
+        border: 4px solid #bab8b7;
         border-radius: 10%;
         display: flex;
         align-items: center;
@@ -52,6 +54,7 @@
     }
     .firstline-firstCard-title-section2 > h2 {
     margin-top: 10px;
+    color: white;
     }
     
     .firstline-firstCard-text1-section2{
@@ -60,6 +63,7 @@
     }
     .firstline-firstCard-text1-section2 > p{
         margin-top: 5px;
+        color: #bab8b7;
        
     }
     
@@ -79,7 +83,7 @@
         max-height: 230px;
         min-height: 230px;
         overflow: hidden;
-        border: 4px solid grey;
+        border: 4px solid #bab8b7;
         border-radius: 10%;
         display: flex;
         align-items: center;
@@ -91,6 +95,7 @@
     }
     .firstline-secondCard-title-section2 > h2 {
     margin-top: 10px;
+    color: white;
     }
     .firstline-secondCard-text1-section2{
         width: 250px;
@@ -98,6 +103,7 @@
     }
     .firstline-secondCard-text1-section2 > p {
         margin-top: 5px;
+        color: #bab8b7;
     
     }
     
@@ -116,7 +122,7 @@
         max-height: 230px;
         min-height: 230px;
         overflow: hidden;
-        border: 4px solid grey;
+        border: 4px solid #bab8b7;
         border-radius: 10%;
         display: flex;
         align-items: center;
@@ -128,6 +134,7 @@
     }
     .firstline-thirdCard-title-section2 > h2 {
     margin-top: 10px;
+    color: white;
     }
     .firstline-thirdCard-text1-section2{
    width: 250px;
@@ -135,6 +142,7 @@
     }
     .firstline-thirdCard-text1-section2 > p{
         margin-top: 5px;
+        color: #bab8b7;
        
     }
     

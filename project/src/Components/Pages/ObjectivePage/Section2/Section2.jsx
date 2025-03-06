@@ -39,7 +39,7 @@ const Section2 = () => {
       }));
     }, 3000); 
   };
-
+const more = '+'
   return (
     <div className='section2-container'>
       <div className='section2-title'>
@@ -71,7 +71,7 @@ const Section2 = () => {
             <h2>{names.frontEnd}</h2>
             <div className='secondCard-icons'>
               <div className='secondCard-firstline-icons'>
-                <FaReact className='react' onClick={() => changingNames('frontEnd', 'React')} />+
+                <FaReact className='react' onClick={() => changingNames('frontEnd', 'React')} /> <div className='more'>{more}</div>
                 <SiVite className='vite' onClick={() => changingNames('frontEnd', 'Vite')} />
               </div>
               <RiTailwindCssFill className='tailwind' onClick={() => changingNames('frontEnd', 'Tailwind')} />
@@ -89,10 +89,10 @@ const Section2 = () => {
             <h2>{names.backEnd}</h2>
             <div className='thirdCard-icons'>
               <div className='thirdCard-firstline-icons'>
-                <FaNodeJs className='node' onClick={() => changingNames('backEnd', 'NodeJS')} /> + <p>Express</p>
+                <FaNodeJs className='node' onClick={() => changingNames('backEnd', 'NodeJS')} />  <div className='more'>{more}</div><p>Express</p>
               </div>
               <div className='thirdCard-secondline-icons'>
-                <SiJest className='jest' onClick={() => changingNames('backEnd', 'Jest')} /> + <p>Supertest</p>
+                <SiJest className='jest' onClick={() => changingNames('backEnd', 'Jest')} /> <div className='more'>{more}</div><p>Supertest</p>
               </div>
               <div className='thirdCard-thirdline-icons'>
                 <FaDocker className='docker' onClick={() => changingNames('backEnd', 'Docker')} />

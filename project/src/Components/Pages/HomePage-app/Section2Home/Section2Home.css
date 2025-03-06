@@ -4,6 +4,9 @@
     flex-direction: column;
     
 }
+.arrow{
+    color: #bab8b7;
+}
 .section2home-title{
  display: flex;
  align-items: center;
@@ -11,6 +14,7 @@
 }
 .section2home-title > h1 {
     margin-top: 20px;
+    color: white;
 }
 .card-exp-direcional-container{
     display: flex;
@@ -23,7 +27,7 @@
 .card-exp-direcional-firstCard{
     width: 200px;
     height: 300px;
-    border: 5px solid black;
+    border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
 .card-exp-direcional-firstCard-image > img{
@@ -40,7 +44,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #bab8b7;
     border-radius: 20px;
 }
 .card-exp-direcional-secondCard-title > h1{
@@ -48,9 +52,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px ;
+    color: white;
 }
 .card-exp-direcional-secondCard-text > p {
     margin: 10px;
+    color: #bab8b7;
 }
 
 .card-exp-direcional-third {
@@ -59,7 +65,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #bab8b7;
     border-radius: 20px;
 }
 
@@ -68,10 +74,12 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: white;
     
 }
 .card-exp-direcional-thirdCard-text > p {
   margin-top: 5px;
+  color:#bab8b7;
 }
 /* Second Line of card (SL) */
 .card-exp-sl-container {
@@ -85,7 +93,7 @@
 .card-exp-sl-firstCard{
     width: 200px;
     height: 300px;
-    border: 5px solid black;
+    border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
 .card-exp-sl-firstCard-image > img{
@@ -102,7 +110,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #bab8b7;
     border-radius: 20px;
 }
 .card-exp-sl-secondCard-title > h1{
@@ -110,9 +118,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: white;
 }
 .card-exp-sl-secondCard-text > p {
     margin: 10px;
+    color: #bab8b7;
 }
 
 .card-exp-sl-third {
@@ -121,7 +131,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #bab8b7;
     border-radius: 20px;
 }
 
@@ -130,10 +140,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
-    
+    color: white;
 }
 .card-exp-sl-thirdCard-text1 > p {
   margin-top: 5px;
+  color: #bab8b7;
 }
 
 .card-exp-sl-thirdCard-title2 > h1{
@@ -141,9 +152,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: white;
 }
 .card-exp-sl-thirdCard-text2 > p {
     margin-top: 5px;
+    color: #bab8b7;
   }
 
   /* Third line of Cards (Nordic Store) */
@@ -158,7 +171,7 @@
 .card-exp-nd-firstCard{
     width: 200px;
     height: 300px;
-    border: 5px solid black;
+    border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
 .card-exp-nd-firstCard-image > img{
@@ -176,7 +189,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #bab8b7;
     border-radius: 20px;
 }
 .card-exp-nd-secondCard-title > h1{
@@ -184,9 +197,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: white;
 }
 .card-exp-nd-secondCard-text > p {
     margin: 10px;
+    color: #bab8b7;
 }
 
 .card-exp-nd-third {
@@ -195,7 +210,7 @@
     align-items: center;
     width: 200px;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid #bab8b7;
     border-radius: 20px;
 }
 
@@ -204,10 +219,12 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: white;
     
 }
 .card-exp-nd-thirdCard-text1 > p {
   margin-top: 5px;
+  color: #bab8b7;
 }
 
 .card-exp-nd-thirdCard-title2 > h1{
@@ -215,7 +232,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 5px;
+    color: white;
 }
 .card-exp-nd-thirdCard-text2 > p {
     margin-top: 5px;
+    color: #bab8b7;
   }
