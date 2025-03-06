@@ -38,13 +38,13 @@ const Section2Home = () => {
       <h1>Skills </h1>
       <h1>Developed</h1>
       <div className='card-exp-direcional-thirdCard-text'>
+      <p>- Everything is a sell</p>
         <p>- Comunication</p>
         <p>- Active listening </p>
         <p>- Teamwork</p>
         <p>- Time Management</p>
         <p> - Conflict Resolution</p>
         <p>- Flexibility</p>
-        <p>- Empathy</p>
         <p>- Trust</p>
         <p>- Planning</p>
       </div>

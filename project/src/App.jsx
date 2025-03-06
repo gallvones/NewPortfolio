@@ -7,16 +7,16 @@ function App() {
 
   return (
  <div className='aplication'>
-  <div className='header'>
+  <div className='header-home'>
 <Header/>
 </div>
-<div className='body'>
+<div className='body-home'>
   <Section1home/>
 <hr/>
 <Section2Home/>
 <hr />
 </div>
-<div className='footer'>
+<div className='footer-home'>
   <Footer/>
 </div>
  </div>

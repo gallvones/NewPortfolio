@@ -1,16 +1,21 @@
-.header{
-    background-color: grey;
-     
+.header-contact{
+    background-color:  #bab8b7;
+    color: rgb(25, 25, 46);
 }
-.body{
-    margin-top: 70px;
+.body-contact{
+    background-color: rgb(25, 25, 46);
+    color:  #bab8b7;
+    
 }
-.footer {
-    background-color: grey;
+.footer-contact {
+    background-color:  #bab8b7;
+    color: rgb(25, 25, 46);
 }
-.hr2 {
+.hr1-contact {
     margin-top: 25px;
+    background-color:  #bab8b7;
 }
-.hr3{
+.hr2-contact{
     margin-top: -90px;
+    background-color:  #bab8b7;
 }

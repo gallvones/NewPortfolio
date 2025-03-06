@@ -7,16 +7,16 @@ import Section2 from '../ContactPage/Section2ContactPage/Section2Contact'
 const ContactPage = () => {
   return (
     <div className='contactPage'>
-        <div className='header'>
+        <div className='header-contact'>
            <Header/>
            </div>
-           <div className='body'>
+           <div className='body-contact'>
             <Section1/>
-            <hr  className='hr2'/>
+            <hr  className='hr1-contact'/>
             <Section2/>
-            <hr className='hr3'/>
+            <hr className='hr2-contact'/>
            </div>
-        <div className='footer'>
+        <div className='footer-contact'>
           <Footer/>
           </div>
         </div>

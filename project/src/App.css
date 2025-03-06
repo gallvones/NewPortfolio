@@ -15,13 +15,14 @@ hr{
     background-color: rgb(99, 2, 2);
     border: 1px;
 }
-.header{
+.header-home{
     background-color: grey;
      
 }
-.body{
+.body-home{
     margin-top: 70px;
+    
 }
-.footer {
+.footer-home {
     background-color: grey;
 }

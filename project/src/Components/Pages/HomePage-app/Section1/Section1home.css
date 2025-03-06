@@ -26,9 +26,14 @@
     flex-direction: column;
     margin-top: 50px;
 }
+.about-me-text{
+    height: 150px;
+    width: 350px;
+    
+}
 
-.SocialMedia-icons{
-    margin-top: 10px;
+.SocialMedia-icons-homepage{
+    margin-top: -10px;
 }
 .curriculo-container{
     margin-top: 10px;

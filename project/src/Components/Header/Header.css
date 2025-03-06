@@ -16,3 +16,6 @@
     cursor: pointer;
     
   }
+  .links:hover {
+    color: white;
+  }

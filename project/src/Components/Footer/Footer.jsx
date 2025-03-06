@@ -5,7 +5,7 @@ import { FaRegCopyright,FaLinkedin, } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <p> "The important thing is not to get there, but to bear fruits from the journey"  </p>
+      <p> "The most important thing is not to get there, but to bear fruits from the journey"  </p>
        <p>Luiz Galvão</p> <FaRegCopyright className='copyright'/>
         </div>
   )

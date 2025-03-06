@@ -9,16 +9,16 @@ import Section2 from './Section2/Section2'
 const ObjectivePage = () => {
   return (
     <div className='objectPage'>
-    <div className='header'>
+    <div className='header-objective'>
        <Header/>
        </div>
-       <div className='body'>
+       <div className='body-objective'>
         <Section1/>
         <hr />
         <Section2/>
         <hr />
        </div>
-    <div className='footer'>
+    <div className='footer-objective'>
       <Footer/>
       </div>
     </div>
