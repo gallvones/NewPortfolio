@@ -1,5 +1,7 @@
 .all-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
    gap: 60px ;
 }
 
@@ -14,7 +16,7 @@
     align-items: center;
     justify-content: center;
     border: solid 5px #bab8b7;
-    margin-left: 150px;
+   
     margin-top: 50px;
 }
 
