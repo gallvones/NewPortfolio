@@ -10,6 +10,7 @@ const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 const usernameGmail = process.env.GMAIL_USERNAME;
 const passwordGmail = process.env.PASSWORD_USERNAME;
+const backendUrl = process.env.BACKEND_URL;
 
 const app = express();
 const PORT = process.env.PORT || 3002;
