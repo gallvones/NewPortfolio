@@ -19,11 +19,11 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Serve os arquivos estáticos do frontend (gerados pelo Vite)
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
+app.use(express.static(path.join(__dirname, '../project/dist')));
 
 // Rota para o frontend
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
+  res.sendFile(path.join(__dirname, '../project/dist', 'index.html'));
 });
 
 // DB connect
