@@ -4,7 +4,7 @@ const FormDataSchema = new mongoose.Schema({
     firstline: String,
     secondline: String,
     thirdline: String,
-    fourdline: String,
+    fourdline: String
 }, { collection: 'DataForms' }); // Name of collection
 
 const FormData = mongoose.model('FormData', FormDataSchema);
