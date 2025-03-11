@@ -1,8 +1,8 @@
 import React from 'react'
-import '../Section1/Section1objective.css'
+import '../Section1/Section1Objective.css'
 import myImage2 from '../../../../assets/img/perfil2.png'
-import Section1Icons from '../../HomePage-app/Section1/Section1Icons/Section1Icons'
-import { IoMdCloudDownload } from "react-icons/io";
+import Section1Icons from '../../HomePage-app/Section1/Section1Icons/Section1Icons';
+
 const Section1objective = () => {
   return (
     <div className='all-section'>
