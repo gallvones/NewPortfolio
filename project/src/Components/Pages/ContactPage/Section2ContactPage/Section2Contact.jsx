@@ -32,8 +32,8 @@ const Section2Contact = () => {
             });
 
             if (response.ok) {
-                const result = await response.json(); // Process the response of backend
-                alert(`Your message was receive in my DB and send to my personal e-mail inbox! ${formData.firstline},i will respond as soon as I can `);
+                 await response.json(); // Process the response of backend
+                alert(`Your message was receive in my DB and send to my personal e-mail inbox! ${formData.firstline}, I will respond as soon as I can! `);
                 setFormData({
                     firstline: '',
                     secondline: '',
