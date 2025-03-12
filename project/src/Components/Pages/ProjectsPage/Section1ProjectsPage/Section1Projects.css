@@ -9,15 +9,19 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: -30px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: white;
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
 }
+
 .section1-text1{
 display: flex;
 align-items: center;
 justify-content: center;
 margin-top: 20px;
-color: #bab8b7;;
+color: #bab8b7;
+font-family: "Karla", sans-serif;
 }
 .firstlineCards-section1{
     display: flex;
@@ -25,6 +29,8 @@ color: #bab8b7;;
     justify-content: center;
     margin-top: 50px;
     gap: 80px   ;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
 }
 
 
@@ -112,7 +118,8 @@ color: white;
     
 }
 .firstline-thirdCard-img-container-section1> img{
-width: 170%;
+width: 140%;
+margin-top: 15px;
 }
 .firstline-thirdCard-title{
     display: flex;

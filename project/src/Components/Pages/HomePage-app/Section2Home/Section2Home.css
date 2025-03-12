@@ -17,6 +17,7 @@
 .section2home-title > h1 {
     margin-top: 20px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 /* Firstline of cards - BC */
 .card-exp-bc-container {
@@ -56,11 +57,13 @@
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 
 .card-exb-bc-secondCard-text-firstP{
 margin: 10px;
 color: white;
+font-family: "Karla", sans-serif;
 }
 
 .card-exb-bc-secondCard-text-secondP{
@@ -84,11 +87,13 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 .card-exp-bc-thirdCard-text1 > p {
   margin-top: 5px;
   color: #bab8b7;
   font-size: 17px;
+  font-family: "Karla", sans-serif;
 }
 
 .card-exp-bc-thirdCard-title2 > h1{
@@ -97,10 +102,12 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 .card-exp-bc-thirdCard-text2 > p {
     margin-top: 5px;
     color: #bab8b7;
+    font-family: "Karla", sans-serif;
   }
   /* Second Line of Cards - ND */
   .card-exp-nd-container {
@@ -141,10 +148,12 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 .card-exp-nd-secondCard-firstP{
     margin: 10px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 .card-exp-nd-secondCard-secondP{
 margin: 10px;
@@ -173,11 +182,13 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
     
 }
 .card-exp-nd-thirdCard-text1 > p {
   margin-top: 5px;
   color: #bab8b7;
+  font-family: "Karla", sans-serif;
 }
 
 .card-exp-nd-thirdCard-title2 > h1{
@@ -186,10 +197,12 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
 }
 .card-exp-nd-thirdCard-text2 > p {
     margin-top: 5px;
     color: #bab8b7;
+    font-family: "Karla", sans-serif;
     
   }
 
@@ -231,12 +244,21 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px ;
     color: white;
+    font-family: "Karla", sans-serif;
 }
-.card-exp-direcional-secondCard-text > p {
+.card-exp-direcionalsecondCard-firstP {
+    margin: 10px;
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+.card-exp-direcionalsecondCard-secondP{
     margin: 10px;
     color: #bab8b7;
 }
-
+.card-exp-direcionalsecondCard-thirdP{
+    margin: 10px;
+    color: #bab8b7;
+}
 .card-exp-direcional-third {
     display: flex;
     flex-direction: column;
@@ -253,9 +275,11 @@ color: #bab8b7;
     justify-content: center;
     margin-top: 5px;
     color: white;
+    font-family: "Karla", sans-serif;
     
 }
 .card-exp-direcional-thirdCard-text > p {
   margin-top: 5px;
   color:#bab8b7;
+  font-family: "Karla", sans-serif;
 }

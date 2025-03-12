@@ -1,18 +1,65 @@
 .all-container{
     display: flex;
-    flex-direction: column;
+    
+}
+   .curriculo-allContainer{
+    display: flex;
+    gap: 10px;
+    width: 120px;
+   }
+
+   .viewCV{
+    color: rgb(25, 25, 46);
+    background-color: #bab8b7;
+    padding: 5px;
+    outline: none;
+    appearance: none;
+    border: 1.5px solid grey;
+    border-radius: 15px;
+   }
+   .viewCV >p{
+    font-size: 0.67rem;
+   }
+   .viewCV:hover{
+    background-color: white;
+    
+   }
+
+   .downloadCV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(25, 25, 46);
+    background-color: #bab8b7;
+    padding: 3px;
+    outline: none;
+    appearance: none;
+    border: 1.5px solid grey;
+    width: 26px; /* Ajuste para um botão maior */
+    height: 26px;
+    border-radius: 50%; /* Para deixar o botão circular */
 }
 
-.icons{
-    gap: 15px ;
+.download-icon {
+    font-size: 2rem; /* Aumentando o tamanho do ícone */
+}
+
+.downloadCV:hover {
+    background-color: white;
+}
+
+
+   .icons{
+    gap: 10px ;
     display: flex;
     cursor: pointer;
-    font-size: 1.4rem;
-    margin-left: -2.5px;
+    font-size: 1.5rem;
+    margin-left: -20px;
     
 }
 .icons > a > .linkedin {
 color: #bab8b7;
+
 
 }
 .icons > a > .linkedin:hover{
@@ -32,46 +79,4 @@ color: #bab8b7;
       
       color: #FF0000;
     }
-   .curriculo-allContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 10px ;
-    margin-top: 10px;
-    width: 60px;
-   }
-
-   .viewCV{
-    color: rgb(25, 25, 46);
-    background-color: #bab8b7;
-    padding: 5px;
-    outline: none;
-    appearance: none;
-    border: 1.5px solid grey;
-    border-radius: 15px;
-    margin-left: -3.5px;
-   }
-   .viewCV >p{
-    font-size: 0.8rem;
-   }
-   .viewCV:hover{
-    background-color: white;
-    
-   }
-
-   .downloadCV{
-    color: rgb(25, 25, 46);
-    background-color: #bab8b7;
-    padding: 7px;
-    outline: none;
-    appearance: none;
-    border: 1.5px solid grey;
-    border-radius: 50%;
-    margin-left: -1.5px;
-   }
-   .download-icon{
-    font-size: 1.5rem;
-   }
-   .downloadCV:hover{
-    background-color: white;
-   }
    

@@ -10,15 +10,15 @@ const Section1objective = () => {
             <img src={myImage2} alt="My image2" />
         </div>
         <div className='objective-text'>
-            <h1> Relocation in the job market </h1>
+            <h1> FullStack Developer</h1>
             <br />
-            <p> - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel libero ipsum
-            ea aperiam quae dolorem quis tenetur molestias iusto eius, laborum 
-            nam, eos aspernatur. Enim repellat sapiente facere ad aliquid?</p>
+            <p>Specializing in React, Node.js, and MongoDB, I have experience using Vite for efficient builds, hooks like useState and useContext, and react-router-dom for route management. </p>
             <br />
-            <p> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiaebr  non hic porro, nihil magni aperiam, adipisci magnam animi repudiandae
-            quisquam facere impedit, aspernatur ipsam illo voluptatibus 
-            ipsa error modi laboriosam.</p>
+               <p> On the back end, I work with Express, HTTPS routes, JWT authentication, middlewares, and testing with Jest/Supertest. I use Mongoose for MongoDB data manipulation and implement RESTful APIs for internal and third-party integrations.</p>
+<br />
+<p> Familiar with Git for version control, Trello for organization, Figma for prototyping, and Postman for API testing. Seeking a Junior Full Stack Developer position to contribute technical solutions and grow professionally.</p>
+<br />
+<p>I am looking for a Junior FullStack Developer position.</p>
             <br />
             <div className='SocialMedia-icons'>
                 <Section1Icons/>

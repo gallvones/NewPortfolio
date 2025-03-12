@@ -2,6 +2,7 @@ import React from 'react'
 import '../Section1ProjectsPage/Section1Projects.css'
 import IMGperfil from '../../../../assets/img/perfil.jpg'
 import NDLOGO from '../../../../assets/img/NDLOGO.png'
+import Linkedin from '../../../../assets/img/linkedin.png';
 const Section1Projects = () => {
   return (
     <div className='all-Projects-section1'>
@@ -30,8 +31,8 @@ const Section1Projects = () => {
                  {/* ThirdlineCard3 */}
 
                 <div className='firstline-thirdCard-section1'>
-                    <div className='firstline-thirdCard-img-container-section1'><img src= ''alt="#30 days project" /> </div>
-                    <div className='firstline-thirdCard-title'><h2> Linkedin Posts</h2> </div>
+                    <div className='firstline-thirdCard-img-container-section1'><img src= {Linkedin}alt="#30 days project" /> </div>
+                    <div className='firstline-thirdCard-title'><h2> Posts on Linkedin</h2> </div>
                 </div>
             </div>
         </div>

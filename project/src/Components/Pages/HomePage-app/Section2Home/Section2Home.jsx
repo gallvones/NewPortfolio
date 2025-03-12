@@ -29,7 +29,7 @@ const Section2Home = () => {
     <h1>Blue Code </h1>
     <h1> Systems </h1>
     <div className='card-exp-bc-secondCard-text'>
-    <p className='card-exb-bc-secondCard-text-firstP'>Internship in Fullstack De- <br /> velopment (July 2024 - December 2024).</p>
+    <p className='card-exb-bc-secondCard-text-firstP'>Internship in Fullstack Development (July 2024 - December 2024).</p>
 <p className='card-exb-bc-secondCard-text-secondP'> I worked on the developm- <br /> ent of fullstack applications<br /> collaborating with an agile team composed of junior, mid-level and senior deve- <br /> lopers, Scrum Master and other professionals.</p>
     </div>
   </div>
@@ -127,10 +127,10 @@ I developed a full-stack application for a client as a freelance developer. </p>
    <div className='card-exp-direcional-secondCard-title'> <h1>Direcional</h1>
    </div>
    <div className='card-exp-direcional-secondCard-text'>
-   <p>I worked at Direcional as a real estate agent for 1 year and 4 months (August 2022 - January 2024).</p>
-<p>During this period, I was responsible for selling apa- <br />  rtments in  off-plan and ready-to-move-in develop- <br /> ments, both individually.</p>
+   <p className='card-exp-direcionalsecondCard-firstP'>I worked at Direcional as a real estate agent for over 1 year (August 2022 - January 2024).</p>
+<p className='card-exp-direcionalsecondCard-secondP'>During this period, I was responsible for selling apa- <br />  rtments in  off-plan and ready-to-move-in develop- <br /> ments, both individually.</p>
 
-<p> My focus was to meet cus- <br /> tomer needs and offer cus- <br /> tomized solutions, contri- <br />  buting to sales success."</p>
+<p className='card-exp-direcionalsecondCard-thirdP'> My focus was to meet cus- <br /> tomer needs and offer cus- <br /> tomized solutions, contri- <br />  buting to sales success."</p>
    </div>
    
  </div>
