@@ -68,19 +68,32 @@
     gap: 15px;
 }
 .firstCard-icons > .react {
-    color: #61dafb;
+    color: #bab8b7;
     cursor: pointer;
+  
+}
+.firstCard-icons > .react:hover {
+    color: #61dafb;
+    
   
 }
 
 .firstCard-icons > .node {
-    color: #339933;
+    color: #bab8b7;
     cursor: pointer;
+}
+.firstCard-icons > .node:hover {
+    color: #339933;
+    
 }
 
 .firstCard-icons > .mongodb {
+    color: #bab8b7;
+    cursor: pointer;
+    }
+.firstCard-icons > .mongodb:hover {
 color: #47A248;
-cursor: pointer;
+
 }
 
 
@@ -101,19 +114,35 @@ cursor: pointer;
     gap: 10px;
 }
 .secondCard-firstline-icons > .react {
-    color: #61dafb;
+    color: #bab8b7;
     cursor: pointer;
 }
+.secondCard-firstline-icons > .react :hover{
+    color: #61dafb;
+    
+}
 .secondCard-firstline-icons > .vite {
+    color: #bab8b7;
+    cursor: pointer;
+}
+.secondCard-firstline-icons > .vite:hover {
     color: #646CFF;
     cursor: pointer;
 }
 
 .secondCard-icons > .tailwind{
+    color: #bab8b7;
+    cursor: pointer;
+    }
+.secondCard-icons > .tailwind:hover{
 color: #38BDF8;
-cursor: pointer;
+
 }
 .secondCard-icons > .bootstrap{
+    color: #bab8b7;
+    cursor: pointer;
+}
+.secondCard-icons > .bootstrap:hover{
 color: #7952B3;
 cursor: pointer;
 }
@@ -136,12 +165,22 @@ cursor: pointer;
     
 }
 .thirdCard-firstline-icons > .node {
-    color: #339933;
+    color: #ababab;
     cursor: pointer;
+}
+.thirdCard-firstline-icons > .node:hover {
+    color: #339933;
+    
 }
 .thirdCard-firstline-icons > p {
     font-size: 25px;
     color: #bab8b7;
+    cursor: pointer;
+}
+.thirdCard-firstline-icons > p:hover {
+    font-size: 25px;
+    color: black;
+    
 }
 
 
@@ -152,10 +191,19 @@ cursor: pointer;
     gap: 10px;   
 }
 .thirdCard-secondline-icons > .jest {
-    color: #C21325;
+    color: #ababab;
     cursor: pointer;
 }
+.thirdCard-secondline-icons > .jest:hover {
+    color: #C21325;
+    
+}
 .thirdCard-secondline-icons > p {
+    font-size: 25px;
+    color: #ababab;
+    cursor: pointer;
+}
+.thirdCard-secondline-icons > p:hover {
     font-size: 25px;
     color: #5C3B8F;
 }
@@ -168,22 +216,39 @@ cursor: pointer;
     margin-top: 7px;
 }
 .thirdCard-thirdline-icons > .docker {
-    color: #2496ED;
+    color: #ababab;
     cursor: pointer;
+}
+.thirdCard-thirdline-icons > .docker:hover {
+    color: #2496ED;
+    
 }
 .thirdCard-thirdline-icons > .jwt {
-    color: #D63AFF;
+    color: #ababab;
     cursor: pointer;
+}
+.thirdCard-thirdline-icons > .jwt:hover {
+    color: #D63AFF;
+    
 }
 .thirdCard-thirdline-icons > .mongoose {
-    color: #47A248;
+    color: #ababab;
     cursor: pointer;
+}
+.thirdCard-thirdline-icons > .mongoose:hover {
+    color: #47A248;
+    
 }
 .thirdCard-thirdline-icons > .git {
-    color:#F05032;
+    color: #ababab;
     cursor: pointer;
 }
+.thirdCard-thirdline-icons > .git:hover {
+    color:#F05032;
+    
+}
 
+/* FourdLine */
 .fourdCard-icons {
     display: flex;
     flex-direction: column;
@@ -200,26 +265,43 @@ cursor: pointer;
 }
 
 .fourdCard-firstline-icons > .trello {
-    color: #0079BF;
+    color: #ababab;
     cursor: pointer;
     }
+.fourdCard-firstline-icons > .trello:hover {
+    color: #0079BF;
+   
+    }
+
 
 .fourdCard-firstline-icons > .github {
  color: #bab8b7;
  cursor: pointer;
 }
+.fourdCard-firstline-icons > .github:hover {
+    color: white;
+    
+   }
 
-.fourdCard-firstline-icons > .vscode{
+   .fourdCard-firstline-icons > .vscode{
+    color: #ababab;
+    cursor: pointer;
+    }
+.fourdCard-firstline-icons > .vscode:hover{
 color: #007ACC;
 cursor: pointer;
 }
 .fourdCard-firstline-icons > p {
-    color: #007ACC;
+    color: #ababab;
     padding: 2px;
     font-size: 1.5rem;
-    border: solid 1px black;
+    border: solid 1px #ababab;
     border-radius: 10px;
     cursor: pointer;
+}
+.fourdCard-firstline-icons > p:hover{
+    color:#438cd5;
+    border-color: #438cd5;
 }
 
 .fourdCard-secondline-icons {
@@ -230,22 +312,38 @@ cursor: pointer;
     margin-top: 10px;
 }
 .fourdCard-secondline-icons > .figma{
-    color: #F24E1E;
+    color: #ababab;
     cursor: pointer;
+}
+.fourdCard-secondline-icons > .figma:hover{
+    color: #F24E1E;
+    
 }
 
 .fourdCard-secondline-icons > .canva {
-    color: #00C4CC;
+    color: #ababab;
     cursor: pointer;
+}
+.fourdCard-secondline-icons > .canva:hover {
+    color: #00C4CC;
+    
 }
 
 .fourdCard-secondline-icons > .postman {
-    color: #FF6C37;
+    color: #ababab;
     cursor: pointer;
 }
+.fourdCard-secondline-icons > .postman:hover {
+    color: #FF6C37;
+    
+}
 .fourdCard-secondline-icons > .notion {
-    color: #5849BE;
+    color: #ababab;
     cursor: pointer;
+}
+.fourdCard-secondline-icons > .notion:hover {
+    color: #5849BE;
+    
 }
 .fourdCard-thirdline-icons > p{
     cursor: pointer;
@@ -261,6 +359,7 @@ cursor: pointer;
 .fourdCard-thirdline-icons :hover{
     background-color: #2B579A;
     color: rgb(205, 205, 205);
+    border-color: rgb(25, 25, 46);
 }
 
 

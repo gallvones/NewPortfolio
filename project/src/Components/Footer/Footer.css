@@ -7,11 +7,13 @@
 }
 .footer-container >p {
     margin-top: 36.6px;
+    font-family: "Karla", sans-serif;
 }
 .footer-container > .copyright {
     margin-top: 38px;
     font-size: 0.85rem;
     margin-left: -2px;
     cursor: pointer;
+    font-family: "Karla", sans-serif;
 
 }

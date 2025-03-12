@@ -40,6 +40,7 @@ const Section2 = () => {
     }, 3000); 
   };
 const more = '+'
+
   return (
     <div className='section2-container'>
       <div className='section2-title'>

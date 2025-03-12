@@ -12,24 +12,25 @@
     
 }
 .icons > a > .linkedin {
-color: #0080ff;
+color: #bab8b7;
 
 }
 .icons > a > .linkedin:hover{
-    color: white;
+    color: #0080ff;
     }
 
-    .icons > a > .github {
+    .icons > a > .githubHome {
         color: #bab8b7;
     }
-    .icons > a > .github:hover {
+    .icons > a > .githubHome:hover {
         color: white;
     }
     .icons > a > .youtube {
-        color: #FF0000;
+        color: #bab8b7;
     }
     .icons > a > .youtube:hover {
-      color: white;
+      
+      color: #FF0000;
     }
    .curriculo-allContainer{
     display: flex;
@@ -52,6 +53,10 @@ color: #0080ff;
    .viewCV >p{
     font-size: 0.8rem;
    }
+   .viewCV:hover{
+    background-color: white;
+    
+   }
 
    .downloadCV{
     color: rgb(25, 25, 46);
@@ -65,5 +70,8 @@ color: #0080ff;
    }
    .download-icon{
     font-size: 1.5rem;
+   }
+   .downloadCV:hover{
+    background-color: white;
    }
    

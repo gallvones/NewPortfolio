@@ -32,16 +32,22 @@
 }
 .about-me > h1{
     color: white;
+    font-size: 32px;
+    font-family: "Karla", sans-serif;
+
 }
+
 .about-me-text{
     height: 150px;
     width: 350px;
     
 }
-
-.SocialMedia-icons-homepage{
-    margin-top: -10px;
+.about-me-text > p {
+    font-family: "Karla", sans-serif;
 }
+
+
+
 .curriculo-container{
     margin-top: 10px;
     display: flex;
