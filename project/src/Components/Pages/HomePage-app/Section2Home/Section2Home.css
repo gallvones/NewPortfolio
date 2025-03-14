@@ -124,7 +124,7 @@ color: #bab8b7;
     border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
-.card-exp-nd-firstCard-image > img{
+.card-exp-nd-firstCard-image > a > img{
     width: 130%;
     width: 200px;
     height: 320px;

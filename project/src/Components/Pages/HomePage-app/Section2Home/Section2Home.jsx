@@ -64,7 +64,7 @@ const Section2Home = () => {
 <div className='card-exp-nd-container'>
 <div className='card-exp-nd-firstCard'>
   <div className='card-exp-nd-firstCard-image'>
-    <a href="https://nordic-store.onrender.com"><img src={ND} alt="nd-logo" /></a>
+    <a href="https://nordic-store.onrender.com" target='blank'><img src={ND} alt="nd-logo" /></a>
   </div>
 
 </div>
