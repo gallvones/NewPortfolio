@@ -10,10 +10,10 @@ import { VscVscode } from 'react-icons/vsc';
 
 const Section2 = () => {
   const [names, setNames] = useState({
-    coreTechs: 'Click Icons',
-    frontEnd: 'Click Icons',
-    backEnd: 'Click Icons',
-    tools: 'Click Icons',
+    coreTechs: '',
+    frontEnd: '',
+    backEnd: '',
+    tools: '',
   });
 
   
@@ -35,7 +35,7 @@ const Section2 = () => {
     timeoutRef.current[section] = setTimeout(() => {
       setNames((prevNames) => ({
         ...prevNames,
-        [section]: 'Click Icons',
+        [section]: '',
       }));
     }, 3000); 
   };
