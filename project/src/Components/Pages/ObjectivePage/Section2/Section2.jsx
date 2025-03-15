@@ -56,9 +56,10 @@ const more = '+'
           <div className='section2-iconCard'>
             <h2>{names.coreTechs}</h2>
             <div className='firstCard-icons'>
-              <FaReact className='react' onClick={() => changingNames('coreTechs', 'React')} />
-              <FaNodeJs className='node' onClick={() => changingNames('coreTechs', 'Node')} />
-              <SiMongodb className='mongodb' onClick={() => changingNames('coreTechs', 'MongoDB')} />
+              <FaReact className='react' onMouseMove={() => changingNames('coreTechs', 'React')} onMouseOut={() => changingNames('coreTechs', '')} />
+              <FaNodeJs className='node' onMouseMove={() => changingNames('coreTechs', 'Node')}  onMouseOut={() => changingNames('coreTech', '')}/>
+              <SiMongodb className='mongodb' onMouseMove={() => changingNames('coreTechs', 'MongoDB')} onMouseOut={() => changingNames('coreTechs', '')}
+              />
             </div>
           </div>
         </div>
@@ -72,11 +73,11 @@ const more = '+'
             <h2>{names.frontEnd}</h2>
             <div className='secondCard-icons'>
               <div className='secondCard-firstline-icons'>
-                <FaReact className='react' onClick={() => changingNames('frontEnd', 'React')} /> <div className='more'>{more}</div>
-                <SiVite className='vite' onClick={() => changingNames('frontEnd', 'Vite')} />
+                <FaReact className='react' onMouseMove={() => changingNames('frontEnd', 'React')} onMouseOut={() => changingNames('frontEnd', '')} /> <div className='more'>{more}</div>
+                <SiVite className='vite' onMouseMove={() => changingNames('frontEnd', 'Vite')} onMouseOut={() => changingNames('frontEnd', '')}  />
               </div>
-              <RiTailwindCssFill className='tailwind' onClick={() => changingNames('frontEnd', 'Tailwind')} />
-              <BsBootstrapFill className='bootstrap' onClick={() => changingNames('frontEnd', 'Bootstrap')} />
+              <RiTailwindCssFill className='tailwind' onMouseMove={() => changingNames('frontEnd', 'Tailwind')}  onMouseOut={() => changingNames('frontEnd', '')} />
+              <BsBootstrapFill className='bootstrap' onMouseMove={() => changingNames('frontEnd', 'Bootstrap')} onMouseOut={() => changingNames('frontEnd', '')} />
             </div>
           </div>
         </div>
@@ -90,16 +91,18 @@ const more = '+'
             <h2>{names.backEnd}</h2>
             <div className='thirdCard-icons'>
               <div className='thirdCard-firstline-icons'>
-                <FaNodeJs className='node' onClick={() => changingNames('backEnd', 'NodeJS')} />  <div className='more'>{more}</div><p>Express</p>
+                <FaNodeJs className='node' onMouseMove={() => changingNames('backEnd', 'NodeJS')} onMouseOut={() => changingNames('backEnd', '')}/>  <div className='more'>{more}</div><p onMouseMove={() => changingNames('backEnd', 'Express')} onMouseOut={()=> changingNames('backEnd', '')}>Express</p>
               </div>
               <div className='thirdCard-secondline-icons'>
-                <SiJest className='jest' onClick={() => changingNames('backEnd', 'Jest')} /> <div className='more'>{more}</div><p>Supertest</p>
+                <SiJest className='jest' onMouseMove={() => changingNames('backEnd', 'Jest')}  onMouseOut={() => changingNames('backEnd', '')}/> 
+                <div className='more'>{more}</div >
+                <p onMouseMove={() => changingNames('backEnd', 'Supertest')} onMouseOut={() => changingNames('backEnd', '')}>Supertest</p>
               </div>
               <div className='thirdCard-thirdline-icons'>
-                <FaDocker className='docker' onClick={() => changingNames('backEnd', 'Docker')} />
-                <SiJsonwebtokens className='jwt' onClick={() => changingNames('backEnd', 'JWT')} />
-                <SiMongoose className='mongoose' onClick={() => changingNames('backEnd', 'Mongoose')} />
-                <FaGitAlt className='git' onClick={() => changingNames('backEnd', 'Git')} />
+                <FaDocker className='docker' onMouseMove={() => changingNames('backEnd', 'Docker')}  onMouseOut={() => changingNames('backEnd', '')}/>
+                <SiJsonwebtokens className='jwt' onMouseMove={() => changingNames('backEnd', 'JWT')} onMouseOut={() => changingNames('backEnd', '')} />
+                <SiMongoose className='mongoose' onMouseMove={() => changingNames('backEnd', 'Mongoose')} onMouseOut={() => changingNames('backEnd', '')} />
+                <FaGitAlt className='git' onMouseMove={() => changingNames('backEnd', 'Git')}  onMouseOut={() => changingNames('backEnd', '')}/>
               </div>
             </div>
           </div>
@@ -114,19 +117,19 @@ const more = '+'
             <h2>{names.tools}</h2>
             <div className='fourdCard-icons'>
               <div className='fourdCard-firstline-icons'>
-                <FaTrello className='trello' onClick={() => changingNames('tools', 'Trello')} />
-                <FaGithub className='github' onClick={() => changingNames('tools', 'GitHub')} />
-                <VscVscode className='vscode' onClick={() => changingNames('tools', 'VSCode')} />
-                <p onClick={() => changingNames('tools', 'DeepSeek')}>IA</p>
+                <FaTrello className='trello' onMouseMove={() => changingNames('tools', 'Trello')} onMouseOut={() => changingNames('tools', '')} />
+                <FaGithub className='github' onMouseMove={() => changingNames('tools', 'GitHub')}  onMouseOut={() => changingNames('tools', '')}/>
+                <VscVscode className='vscode' onMouseMove={() => changingNames('tools', 'VSCode')} onMouseOut={() => changingNames('tools', '')}/>
+                <p onMouseMove={() => changingNames('tools', 'DeepSeek')} onMouseOut={() => changingNames('tools', '')}>IA</p>
               </div>
               <div className='fourdCard-secondline-icons'>
-                <FaFigma className='figma' onClick={() => changingNames('tools', 'Figma')} />
-                <SiCanva className='canva' onClick={() => changingNames('tools', 'Canva')} />
-                <SiPostman className='postman' onClick={() => changingNames('tools', 'Postman')} />
-                <SiNotion className='notion' onClick={() => changingNames('tools', 'Notion')} />
+                <FaFigma className='figma' onMouseMove={() => changingNames('tools', 'Figma')} onMouseOut={() => changingNames('tools', '')} />
+                <SiCanva className='canva' onMouseMove={() => changingNames('tools', 'Canva')}  onMouseOut={() => changingNames('tools', '')}/>
+                <SiPostman className='postman' onMouseMove={() => changingNames('tools', 'Postman')} onMouseOut={() => changingNames('tools', '')} />
+                <SiNotion className='notion' onMouseMove={() => changingNames('tools', 'Notion')} onMouseOut={() => changingNames('tools', '')}/>
               </div>
               <div className='fourdCard-thirdline-icons'>
-                <p onClick={() => {changingNames('tools', 'Office Packet')}}> Office</p>
+                <p onMouseMove={() => {changingNames('tools', 'Office Packet')}} onMouseOut={() => changingNames('tools', '')}> Office</p>
               </div>
             </div>
           </div>

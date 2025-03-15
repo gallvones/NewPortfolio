@@ -60,7 +60,7 @@
     align-items: center;
     justify-content: center;
     color: #bab8b7;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Karla", sans-serif;
     height: 10px;
   
@@ -190,8 +190,8 @@ cursor: pointer;
     
 }
 .thirdCard-firstline-icons > p:hover {
-    font-size: 22px;
-    color: black;
+    
+    color: white;
     
 }
 
@@ -217,7 +217,7 @@ cursor: pointer;
     font-family: "Karla", sans-serif;
 }
 .thirdCard-secondline-icons > p:hover {
-    
+        
     color: #5C3B8F;
 }
 

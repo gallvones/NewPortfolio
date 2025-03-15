@@ -9,7 +9,7 @@ const Section1home = () => {
         <div className='galvaoimage-container'>
          <img src={myImage} alt="My image" />
         </div>
-        <div className='about-me'>
+        <div className='about-me '>
       <h1> About Me</h1> 
       <br />
       <div className='about-me-text'><p> 
