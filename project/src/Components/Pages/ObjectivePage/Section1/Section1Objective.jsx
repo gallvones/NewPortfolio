@@ -16,7 +16,7 @@ const Section1objective = () => {
             <br />
                <p> On the back end, I work with Express, HTTPS routes, JWT authentication, middlewares, and testing with Jest/Supertest. I use Mongoose for MongoDB data manipulation and implement RESTful APIs for internal and third-party integrations.</p>
 <br />
-<p> Familiar with Git for version control, Trello for organization, Figma for prototyping, and Postman for API testing. Seeking a Junior Full Stack Developer position to contribute technical solutions and grow professionally.</p>
+<p> Familiar with Git for version control, Trello for organization, Figma for prototyping, and Postman for API testing. </p>
 <br />
 <p>I am looking for a Junior FullStack Developer position.</p>
             <br />
