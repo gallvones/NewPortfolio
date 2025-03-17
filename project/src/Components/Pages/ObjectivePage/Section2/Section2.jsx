@@ -44,7 +44,7 @@ const more = '+'
   return (
     <div className='section2-container'>
       <div className='section2-title'>
-        <h1>Tecnologias</h1>
+        <h1>Technologies</h1>
       </div>
 
        {/* First Card */}

@@ -1,25 +1,44 @@
 .all {
-    display: flex;
-    align-items: flex-start; 
-    justify-content: center;
-    height: 10vh;
-    font-family: "Karla", sans-serif;
-    
-  }
-  
-  .links_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
-    font-size: 1rem;
-    margin-top: 30px; 
-    cursor: pointer;
-    
-    
-    
-  }
-  
-  .links:hover {
-    color: white;
-  }
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+
+.links_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-size: 1rem;
+  margin-top: 15px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+
+.img-link {
+  height: 8vh;
+  width: 12vh;
+  overflow: hidden; /* Impede que a imagem ultrapasse os limites do container */
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+  align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.img-link > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.5);
+
+}
+.img-link:hover > img {
+  transform: scale(1.6);
+}
+
+
+.links:hover {
+  color: white;
+}

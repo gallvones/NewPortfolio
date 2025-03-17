@@ -17,13 +17,14 @@ const Section1Projects = () => {
 
                 {/* FIrstlineCard1 */}
                 <div className='firstline-firstCard-section1'>
-                  <div className='firstline-firstCard-img-container-section1'> <img src= {NDLOGO} alt="Nordic Store Img" /></div>
+                  
+                  <a href="https://nordic-store.onrender.com"> <div className='firstline-firstCard-img-container-section1'>  <img src= {NDLOGO} alt="Nordic Store Img" /> </div></a>
                    <div className='firstline-firstCard-title'><h2> Nordic Store </h2> </div>
                 </div>
 
                 {/* FirstlineCard2 */}
                 <div className='firstline-secondCard-section1'>
-                    <div className='firstline-secondCard-img-container-section1'><img src={IMGperfil} alt="My image" /></div>
+                    <a href="https://galvao-dev-portfolio.onrender.com"> <div className='firstline-secondCard-img-container-section1'><img src={IMGperfil} alt="My image" /></div></a>
                     <div className='firstline-secondCard-title'><h2> My Portfolio</h2> </div>
                 </div>
 
@@ -31,7 +32,7 @@ const Section1Projects = () => {
                  {/* ThirdlineCard3 */}
 
                 <div className='firstline-thirdCard-section1'>
-                    <div className='firstline-thirdCard-img-container-section1'><img src= {Linkedin}alt="#30 days project" /> </div>
+                    <a href=""> <div className='firstline-thirdCard-img-container-section1'><img src= {Linkedin}alt="#30 days project" /> </div></a>
                     <div className='firstline-thirdCard-title'><h2> Posts on Linkedin</h2> </div>
                 </div>
             </div>
