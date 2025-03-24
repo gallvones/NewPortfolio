@@ -3,6 +3,7 @@ import '../Section1ProjectsPage/Section1Projects.css'
 import IMGperfil from '../../../../assets/img/perfil.jpg'
 import NDLOGO from '../../../../assets/img/NDLOGO.png'
 import Linkedin from '../../../../assets/img/linkedin.png';
+import Soon from '../../../../assets/img/comingsoon.jpeg'
 const Section1Projects = () => {
   return (
     <div className='all-Projects-section1'>
@@ -35,6 +36,36 @@ const Section1Projects = () => {
                     <a href=""> <div className='firstline-thirdCard-img-container-section1'><img src= {Linkedin}alt="#30 days project" /> </div></a>
                     <div className='firstline-thirdCard-title'><h2> Posts on Linkedin</h2> </div>
                 </div>
+            </div>
+
+            <div className='secondlineCards-section1'>
+        {/* SecondlineCard-Card1 */}
+    <div className='secondline-firstCard-section1'>
+      <a href=""> <div className='secondline-firstCard-img-container-section1'>
+        <img src={Soon} alt="Random" /></div></a>
+        <div className='secondline-firstCard-title'>
+            <h2> In Development!</h2>
+        </div>
+
+    </div>
+
+  {/* Secondline-Card2 */}
+  <div className='secondline-secondCard-section1'>
+      <a href=""> <div className='secondline-secondCard-img-container-section1'>
+        <img src={Soon} alt="Random" /></div></a>
+        <div className='secondline-secondCard-title'>
+            <h2> In Development!</h2>
+        </div>
+
+    </div>
+
+    {/* SecondLine - Card3 */}
+
+    
+
+
+
+
             </div>
         </div>
 
