@@ -25,11 +25,11 @@
 }
 .more {
     color: #bab8b7;
-    font-family: "Karla", sans-serif
+    font-family: "Karla", sans-serif;
 }
 .cards-exp {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
     border: 2px solid #bab8b7;
     border-radius: 10%;
     width: 200px;
@@ -190,7 +190,6 @@ cursor: pointer;
     
 }
 .thirdCard-firstline-icons > p:hover {
-    
     color: white;
     
 }
@@ -217,7 +216,6 @@ cursor: pointer;
     font-family: "Karla", sans-serif;
 }
 .thirdCard-secondline-icons > p:hover {
-        
     color: #5C3B8F;
 }
 

@@ -1,15 +1,29 @@
+
+
 .all {
   display: flex;
   align-items: flex-start; 
   justify-content: center;
   font-family: "Karla", sans-serif;
+  
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 15px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+  margin-right: 80px;
 }
 
-.links_container {
+.links-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 70px;
   font-size: 1rem;
   margin-top: 15px;
   cursor: pointer;
@@ -38,7 +52,22 @@
   transform: scale(1.6);
 }
 
-
+.links{
+  font-size: 25px;
+}
 .links:hover {
   color: white;
+}
+
+.logo2-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 15px;
+  cursor: pointer;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+ margin-left: 80px;
 }

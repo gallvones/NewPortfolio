@@ -12,7 +12,7 @@ const Section1home = () => {
         <div className='about-me '>
       <h1> About Me</h1> 
       <br />
-      <div className='about-me-text'><p> 
+      <div className='about-me-text '><p> 
         Hello, World! My name is Luiz Galvão, and I am a Fullstack Developer with a degree in Systems Analysis and Development. With two years of experience, I have developed complete systems and contributed to innovative projects. My expertise includes React.js, Node.js, MongoDB and Cloud solutions.
         </p>
         </div>
