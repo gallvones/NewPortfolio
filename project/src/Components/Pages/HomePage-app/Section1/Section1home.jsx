@@ -2,7 +2,7 @@ import React from 'react'
 import '../Section1/Section1home.css';
 import myImage from '../../../../assets/img/perfil.jpg';
 import Section1Icons from './Section1Icons/Section1Icons'
-import { IoMdCloudDownload } from "react-icons/io";
+
 const Section1home = () => {
   return (
     <div className='all-section'>

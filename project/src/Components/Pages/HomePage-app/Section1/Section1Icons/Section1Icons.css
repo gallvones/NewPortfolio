@@ -1,6 +1,5 @@
 .all-container{
     display: flex;
-    
 }
    .curriculo-allContainer{
     display: flex;
@@ -80,3 +79,9 @@ color: #bab8b7;
       color: #FF0000;
     }
    
+    @media (max-width: 1000px) {
+        .all-container{
+            display: flex;
+            justify-content: center;
+        }
+    }

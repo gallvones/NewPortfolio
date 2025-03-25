@@ -1,13 +1,4 @@
 
-.card-exp-container{
-    display: flex;
-    flex-direction: column;
-    
-}
-.arrow{
-    color: #bab8b7;
-    font-size: 25px;
-}
 .section2home-title{
  display: flex;
  align-items: center;
@@ -18,6 +9,15 @@
     margin-top: 20px;
     color: white;
     font-family: "Karla", sans-serif;
+}
+.arrow{
+    color: #bab8b7;
+    font-size: 25px;
+}
+.card-exp-container{
+    display: flex;
+    flex-direction: column;
+    
 }
 /* Firstline of cards - BC */
 .card-exp-bc-container {
@@ -282,4 +282,27 @@ color: #bab8b7;
   margin-top: 5px;
   color:#bab8b7;
   font-family: "Karla", sans-serif;
+}
+
+@media (max-width: 800px) {
+    .arrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(90deg);
+        
+    }
+    .card-exp-bc-container{
+        flex-direction: column;
+    }
+
+    .card-exp-nd-container{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .card-exp-direcional-container{
+        flex-direction: column;
+        margin-top: 80px;
+    }
 }
