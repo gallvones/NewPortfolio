@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <p> "The path we take is as important as the destination we reach, because it is there that we learn, grow and transform." </p>
-       <p>Luiz Galvão</p> <FaRegCopyright className='copyright'/>
+       <p>Luiz Galvão <FaRegCopyright className='copyright'/></p> 
         </div>
   )
 }

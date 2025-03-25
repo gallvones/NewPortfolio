@@ -1,9 +1,13 @@
 import React from 'react';
+import { useState } from 'react';
 import '../Header/Header.css';
 import { Link } from 'react-router-dom';
 import MyLogo from '../../assets/img/logo.png';
 const Header = () => {
-
+const [navBar, setNavBar] = useState('false');
+  const toggleNav = () => {
+    setNavBar(!navBar)
+  }
 
   return (
     <div className='all'>
@@ -29,8 +33,14 @@ const Header = () => {
 <Link to='/'> <div className='img-link'> <img src={MyLogo} alt="" /></div></Link>
 </div>
 <div className='logo3-container'>
-<div className='img3-link'> <img src={MyLogo} alt="" /></div>
+<div className='img3-link' onClick={toggleNav}> <img src={MyLogo} alt="" /></div>
 
+<div className=  {navBar ? 'navMobileNone' : 'navMobileON'}>
+<Link to='/'> <h2 className='links'>Home</h2> </Link>
+<Link  to='/objective'><h2 className='links'>Objective</h2></Link>
+    <Link to='/projects'><h2 className='links'>Projects</h2></Link>
+    <Link to='/contact'><h2 className='links'>Contact</h2></Link>
+    </div>
 </div>
     </div>
   )
