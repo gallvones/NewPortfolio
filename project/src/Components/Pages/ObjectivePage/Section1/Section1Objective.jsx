@@ -5,7 +5,7 @@ import Section1Icons from '../../HomePage-app/Section1/Section1Icons/Section1Ico
 
 const Section1objective = () => {
   return (
-    <div className='all-section'>
+    <div className='all-section-objective'>
         <div className='galvaoimage2-container'>
             <img src={myImage2} alt="My image2" />
         </div>

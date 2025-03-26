@@ -31,7 +31,6 @@
     flex-direction: column;
     min-width: 400px;
     max-width: 400px;
-    width: 38%;
     justify-content: center;
     align-items: center;
 }
@@ -69,4 +68,43 @@
 }
 .icons-Contact > a > .linkedin-Contact:hover{
     color: #0A66C2;
+}
+@media (max-width: 650px){
+  .galvaoimage-container-Contact{
+    margin-top: 30px;
+    max-width: 300px; 
+    max-height: 300px;
+    min-width: 320px;
+    min-height: 320px;
+  }
+.about-me-Contact{
+    min-width: 350px;
+    max-width: 350px;
+}
+.about-me-Contact > h1 {
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+.about-me-Contact > p {
+    font-size: 0.9rem;
+    
+}
+.icons-Contact{
+    font-size: 1.4rem;
+}
+}
+
+@media(max-width: 450px){
+    .galvaoimage-container-Contact{
+        margin-top: 30px;
+        min-width: 320px;
+        min-height: 320px;
+      }
+    .about-me-Contact{
+        min-width: 320px;
+        max-width: 320px;
+    }
+    .icons-Contact{
+        font-size: 1.3rem;
+    }
 }

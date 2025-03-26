@@ -111,6 +111,7 @@ margin-left: 10px;
   transform: scale(1.4);
   margin-bottom: 20px;
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 
 }
 .img3-link:hover > img {
@@ -148,7 +149,7 @@ margin-left: 10px;
   }
 }
 
-@media (max-width: 750px){
+@media (max-width: 650px){
  .links2-container{
 display: none;
  }

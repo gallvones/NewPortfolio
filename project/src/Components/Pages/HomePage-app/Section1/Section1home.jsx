@@ -5,7 +5,7 @@ import Section1Icons from './Section1Icons/Section1Icons'
 
 const Section1home = () => {
   return (
-    <div className='all-section'>
+    <div className='all-section-home'>
         <div className='galvaoimage-container'>
          <img src={myImage} alt="My image" />
         </div>

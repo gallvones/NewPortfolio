@@ -19,7 +19,7 @@ const Section2Contact = () => {
         });
     };
 
-    // Função para enviar os dados do formulário
+    // Sendo datas of the forms
     const attSubmit = async (e) => {
         e.preventDefault(); // No reload
 

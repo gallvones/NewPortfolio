@@ -376,3 +376,63 @@ cursor: pointer;
 }
 
 
+@media (max-width: 1000px){
+    .cards-exp{
+        width: 150px;
+        height: 220px;
+        min-width: 150px;
+        min-height: 220px;
+    }
+   .section2Card-title{
+    font-size: 10px;
+   }
+   .section2-iconCard > h2{
+    font-size: 15px;
+    margin-top: -10px;
+    
+   }
+   .firstCard-icons{
+    margin-top: 10px;
+    font-size: 2.2rem;
+   }
+ .secondCard-icons{
+    margin-top: 10px;
+    font-size: 2.2rem;
+    gap: 10px   ;
+ }
+ .thirdCard-icons{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    
+ }
+ .thirdCard-firstline-icons > p {
+    font-size: 17px;
+ }
+ .thirdCard-secondline-icons > p {
+    font-size: 17px;
+ }
+
+ .fourdCard-icons{
+    margin-top: 10px;
+    font-size: 1.6rem;
+ }
+   .fourdCard-firstline-icons > p {
+    font-size: 1.2rem;
+
+   }
+   .fourdCard-thirdline-icons  > p {
+        font-size: 1.2rem;
+   }
+}
+
+@media (max-width: 850px) {
+.cardsexp-container{
+    gap: 30px ;
+}
+}
+
+@media (max-width: 768px) {
+    .cardsexp-container{
+        flex-wrap: wrap;
+    }
+}
