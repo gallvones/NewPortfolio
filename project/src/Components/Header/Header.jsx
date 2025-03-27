@@ -3,6 +3,7 @@ import { useState } from 'react';
 import '../Header/Header.css';
 import { Link } from 'react-router-dom';
 import MyLogo from '../../assets/img/logo.png';
+import { IoMenu } from "react-icons/io5";
 const Header = () => {
 const [navBar, setNavBar] = useState('false');
   const toggleNav = () => {
@@ -11,6 +12,7 @@ const [navBar, setNavBar] = useState('false');
 
   return (
     <div className='all'>
+      
       <div className='logo-container'>
       <Link to='/'> <div className='img-link'> <img src={MyLogo} alt="" /></div></Link>
       </div>
@@ -33,10 +35,11 @@ const [navBar, setNavBar] = useState('false');
 <Link to='/'> <div className='img-link'> <img src={MyLogo} alt="" /></div></Link>
 </div>
 <div className='logo3-container'>
-<div className='img3-link' onClick={toggleNav}> <img src={MyLogo} alt="" /></div>
+  
+<Link to='/'><div className='img3-link' > <img src={MyLogo} alt="" /></div></Link>
 
+<div className='burger' onClick={toggleNav}><IoMenu /></div>
 <div className=  {navBar ? 'navMobileNone' : 'navMobileON'}>
-<Link to='/'> <h2 className='links'>Home</h2> </Link>
 <Link  to='/objective'><h2 className='links'>Objective</h2></Link>
     <Link to='/projects'><h2 className='links'>Projects</h2></Link>
     <Link to='/contact'><h2 className='links'>Contact</h2></Link>
