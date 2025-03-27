@@ -30,13 +30,13 @@
 
 .card-exp-bc-firstCard{
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
 .card-exp-bc-firstCard-image > img{
     width: 200px;
-    height: 320px;
+    min-height: 320px;
    border-radius: 15px;
    object-fit:cover;
     
@@ -47,7 +47,7 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 2px solid #bab8b7;
     border-radius: 20px;
 }
@@ -76,7 +76,7 @@ color: #bab8b7;
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 2px solid #bab8b7;
     border-radius: 20px;
 }
@@ -120,14 +120,13 @@ color: #bab8b7;
 
 .card-exp-nd-firstCard{
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
 .card-exp-nd-firstCard-image > a > img{
-    width: 130%;
     width: 200px;
-    height: 320px;
+    min-height: 320px;
    border-radius: 15px;
    object-fit: cover;
     
@@ -138,7 +137,7 @@ color: #bab8b7;
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 2px solid #bab8b7;
     border-radius: 20px;
 }
@@ -171,7 +170,7 @@ color: #bab8b7;
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 2px solid #bab8b7;
     border-radius: 20px;
 }
@@ -217,13 +216,13 @@ color: #bab8b7;
 
 .card-exp-direcional-firstCard{
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 5px solid rgb(25, 25, 46);
     border-radius: 20px;
 }
 .card-exp-direcional-firstCard-image > a > img{
     width: 200px;
-    height: 320px;
+    min-height: 320px;
    border-radius: 15px;
    object-fit: cover;
     
@@ -234,7 +233,7 @@ color: #bab8b7;
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 340px;
+    min-height: 340px;
     border: 2px solid #bab8b7;
     border-radius: 20px;
 }
@@ -264,7 +263,7 @@ color: #bab8b7;
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 320px;
+    min-height: 320px;
     border: 2px solid #bab8b7;
     border-radius: 20px;
 }
