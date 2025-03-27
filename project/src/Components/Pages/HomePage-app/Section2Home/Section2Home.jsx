@@ -130,7 +130,7 @@ I developed a full-stack application for a client as a freelance developer. </p>
    <p className='card-exp-direcionalsecondCard-firstP'>I worked at Direcional as a real estate agent for over 1 year (August 2022 - January 2024).</p>
 <p className='card-exp-direcionalsecondCard-secondP'>During this period, I was responsible for selling apartments in  off-plan and ready-to-move-in developments, both individually.</p>
 
-<p className='card-exp-direcionalsecondCard-thirdP'> My focus was to meet customer needs and offer customized solutions, contributing to sales success."</p>
+<p className='card-exp-direcionalsecondCard-thirdP'> My focus was to meet customer needs and offer customized solutions, contributing to sales success.</p>
    </div>
    
  </div>
